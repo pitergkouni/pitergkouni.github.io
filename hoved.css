@@ -73,10 +73,11 @@ video {
   text-align: center;
   color: white;
 }
-
+.fullnavn {
+  transition: 0.5s;
+}
 .fullnavn:hover {
   color: goldenrod;
-  transition: 0.5s;
   cursor: default;
   transform: scale(1.05);
   text-shadow: 0 0 100px goldenrod;
