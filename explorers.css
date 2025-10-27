@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+  list-style: none;
+}
+img,
+picture,
+video {
+  max-width: 100%;
+  display: block;
+}
+.headerexplorers {
+  text-align: center;
+  font-size: 40px;
+  color: goldenrod;
+  background-image: url(https://c1.wallpaperflare.com/preview/822/256/959/banner-header-paper-crumpled.jpg);
+  box-shadow: 0 0 30px black;
+  position: relative;
+  width: 100%;
+}
+.headerexplorers p {
+  transition: 0.2s;
+}
+.headerexplorers p:hover {
+  color: black;
+  transform: scale(1.05);
+}
+.sectionone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+  background-image: url(https://w0.peakpx.com/wallpaper/147/280/HD-wallpaper-gold-background-vectors-stock-psd-white-gold.jpg);
+}
+.explorecontainer {
+  display: flex;
+  padding: 1;
+  gap: 20px;
+}
+.explorers {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 50px;
+  border-radius: 5px;
+  padding-inline: 80px;
+  padding-block: 280px;
+  filter: grayscale(90%);
+  transition: 0.2s;
+}
+.explorers:hover {
+  transform: scale(1.05);
+  filter: grayscale(0%);
+  cursor: pointer;
+}
+.explorer1 {
+  background-image: url(bilderfraphotos/flowersunset.jpg);
+  background-size: cover;
+  background-position: -6lvb;
+  color: white;
+  border: 2px solid rgb(255, 0, 0);
+}
+.explorer2 {
+  background-image: url(bilderogvideo/galleryfront.jpg);
+  background-size: cover;
+  background-position: -9vb;
+  color: goldenrod;
+  border: 2px solid goldenrod;
+}
+.explorer3 {
+  background-image: url(bilderogvideo/schoolfront.jpg);
+  background-size: cover;
+  color: violet;
+  border: 2px solid violet;
+}
+.sectiontwo {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  width: 100%;
+  height: 100vh;
+  background-image: url(bilderogvideo/blackbg2.jpg);
+  background-size: cover;
+}
+section img {
+  height: 100vh;
+  transition: 0.2s;
+}
+section img:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 100px black);
+}
+.aboutmetext {
+  width: 40%;
+}
+.aboutmetext h1 {
+  font-size: 190px;
+  color: gray;
+  transition: 0.2s;
+}
+.aboutmetext h1:hover {
+  color: goldenrod;
+  transform: scale(1.02);
+  cursor: default;
+  text-shadow: 0 0 80px goldenrod;
+}
+.aboutmetext p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 30px;
+  text-align: justify;
+  color: white;
+}
