@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  z-index: 0;
   text-decoration: none;
   color: inherit;
   list-style: none;
@@ -72,6 +71,7 @@ video {
 .titlemain {
   text-align: center;
   color: white;
+  position: relative;
 }
 .fullnavn {
   transition: 0.5s;
