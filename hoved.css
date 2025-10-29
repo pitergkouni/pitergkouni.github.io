@@ -88,6 +88,7 @@ video {
   padding: 10px;
   padding-inline: 55px;
   width: 100%;
+  transition: 0.5s;
 }
 .acontainer {
   width: 100%;
