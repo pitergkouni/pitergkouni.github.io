@@ -24,10 +24,12 @@ video {
   font-family: "Times New Roman", Times, serif;
   padding-inline: 55px;
 }
+.upleftpit {
+  transition: 0.5s;
+}
 .upleftpit:hover {
   cursor: pointer;
   text-shadow: 0 0 200px white;
-  transition: 0.5s;
 }
 .infomain {
   display: flex;
