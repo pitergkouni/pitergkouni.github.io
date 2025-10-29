@@ -126,13 +126,17 @@ video {
 .text {
   gap: 40px;
 }
-
+.facebook,
+.youtube,
+.snapchat,
+.basketball {
+  transition: 0.2s;
+}
 .facebook:hover,
 .youtube:hover,
 .snapchat:hover,
 .basketball:hover {
   transform: scale(1.1);
-  transition: 0.2s;
   cursor: pointer;
 }
 .copyright {
