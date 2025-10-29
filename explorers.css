@@ -13,7 +13,9 @@ video {
   display: block;
 }
 .headerexplorers {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 40px;
   color: goldenrod;
   background-image: url(https://c1.wallpaperflare.com/preview/822/256/959/banner-header-paper-crumpled.jpg);
