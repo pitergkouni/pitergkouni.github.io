@@ -5,6 +5,7 @@
   text-decoration: none;
   color: inherit;
   list-style: none;
+  transition: 0.5s;
 }
 img,
 picture,
@@ -12,20 +13,19 @@ video {
   max-width: 100%;
   display: block;
 }
-.headermain {
+header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   width: 100%;
   padding: 10px;
-  background-color: transparent;
+  background: none;
   color: rgb(51, 51, 58);
   filter: brightness(160%);
   font-family: "Times New Roman", Times, serif;
   padding-inline: 55px;
 }
-.upleftpit {
-  transition: 0.5s;
+.hamburgericon {
+  display: none;
 }
 .upleftpit:hover {
   cursor: pointer;
@@ -63,26 +63,28 @@ video {
   position: absolute;
 }
 .sectionuno {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
   background-image: url(bilderogvideo/piterlighteyesgoldbgone.jpg);
   background-position: center;
+  background-size: cover;
 }
 .titlemain {
   text-align: center;
   color: white;
   position: relative;
 }
-.fullnavn {
-  transition: 0.5s;
+.THEOFFICIALWEBSITE {
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+  letter-spacing: 5px;
 }
-.fullnavn:hover {
-  color: goldenrod;
-  cursor: default;
-  transform: scale(1.05);
-  text-shadow: 0 0 100px goldenrod;
+.fullnavn {
+  font-size: 130px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.fullnavndisplay {
+  display: none;
 }
 .explorehover {
   border: 1px solid white;
@@ -90,7 +92,6 @@ video {
   padding: 10px;
   padding-inline: 55px;
   width: 100%;
-  transition: 0.5s;
 }
 .acontainer {
   width: 100%;
@@ -103,6 +104,9 @@ video {
   cursor: pointer;
   transform: scale(1.1);
   box-shadow: 0 0 300px white;
+}
+.paragraphdiv {
+  display: none;
 }
 .iconsandtext {
   background-image: url(bilderogvideo/blackbg1\ copy.jpg);
@@ -126,6 +130,9 @@ video {
 .text {
   gap: 40px;
 }
+.text {
+  font-size: large;
+}
 .facebook,
 .youtube,
 .snapchat,
@@ -146,4 +153,96 @@ video {
   padding: 15px;
   background-color: rgb(7, 7, 7);
   color: rgb(212, 212, 212);
+}
+@media (min-width: 1035px) {
+  .fullnavn:hover {
+    color: goldenrod;
+    cursor: default;
+    transform: scale(1.05);
+    text-shadow: 0 0 100px goldenrod;
+  }
+}
+@media (width<1100px) {
+  header {
+    padding-inline: 30px;
+  }
+}
+@media (width<1035px) {
+  .fullnavn {
+    font-size: 100px;
+    color: goldenrod;
+    text-shadow: 0 0 100px goldenrod;
+  }
+}
+@media (width<910px) {
+  header {
+    background: rgba(0, 0, 0, 0.628);
+    box-shadow: 0 0 100px black;
+  }
+}
+@media (width<810px) {
+  .fullnavn {
+    font-size: 80px;
+  }
+  .sectionuno {
+    background-size: 150%;
+  }
+  a div p,
+  nav img {
+    display: none;
+  }
+  .hamburgericon {
+    display: block;
+    filter: invert(50%);
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+  }
+  header div {
+    display: none;
+  }
+}
+@media (min-width: 430px) {
+  .sectionuno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (width<430px) {
+  .sectionuno {
+    background-position: -90px -370px;
+    height: 800px;
+    align-items: center;
+    padding-bottom: 150px;
+    flex-direction: column;
+    padding-top: 220px;
+  }
+  .THEOFFICIALWEBSITE {
+    font-size: 14px;
+  }
+  .fullnavn {
+    display: none;
+  }
+  .fullnavndisplay {
+    display: block;
+    font-size: 100px;
+    color: goldenrod;
+    text-shadow: 0 0 100px goldenrod;
+  }
+  .explorehover {
+    width: 80%;
+    margin: auto;
+  }
+  .paragraphdiv {
+    display: block;
+    color: white;
+    padding-inline: 60px;
+    text-align: justify;
+    line-height: 35px;
+    margin-top: 80px;
+  }
+  .text {
+    font-size: 14px;
+  }
 }
