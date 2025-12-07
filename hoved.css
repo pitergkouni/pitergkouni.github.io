@@ -185,7 +185,7 @@ header {
     font-size: 80px;
   }
   .sectionuno {
-    background-size: 150%;
+    background-size: 120%;
   }
   a div p,
   nav img {
@@ -193,7 +193,6 @@ header {
   }
   .hamburgericon {
     display: block;
-    filter: invert(50%);
     width: 40px;
     height: 40px;
     justify-content: center;
@@ -211,12 +210,12 @@ header {
 }
 @media (width<430px) {
   .sectionuno {
-    background-position: -90px -370px;
-    height: 800px;
+    height: 660px;
+    background-position: center -30px;
     align-items: center;
     padding-bottom: 150px;
     flex-direction: column;
-    padding-top: 220px;
+    padding-top: 100px;
   }
   .THEOFFICIALWEBSITE {
     font-size: 14px;
