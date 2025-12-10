@@ -26,10 +26,6 @@ video {
 .headerexplorers p {
   transition: 0.2s;
 }
-.headerexplorers p:hover {
-  color: black;
-  transform: scale(1.05);
-}
 .sectionone {
   display: flex;
   justify-content: center;
@@ -41,7 +37,6 @@ video {
 }
 .explorecontainer {
   display: flex;
-  padding: 1;
   gap: 20px;
 }
 .explorers {
@@ -50,13 +45,7 @@ video {
   border-radius: 5px;
   padding-inline: 80px;
   padding-block: 280px;
-  filter: grayscale(90%);
   transition: 0.2s;
-}
-.explorers:hover {
-  transform: scale(1.05);
-  filter: grayscale(0%);
-  cursor: pointer;
 }
 .explorer1 {
   background-image: url(bilderfraphotos/flowersunset.jpg);
@@ -91,10 +80,7 @@ section img {
   height: 100vh;
   transition: 0.2s;
 }
-section img:hover {
-  transform: scale(1.05);
-  filter: drop-shadow(0 0 100px black);
-}
+
 .aboutmetext {
   width: 40%;
 }
@@ -103,16 +89,70 @@ section img:hover {
   color: gray;
   transition: 0.2s;
 }
-.aboutmetext h1:hover {
-  color: goldenrod;
-  transform: scale(1.02);
-  cursor: default;
-  text-shadow: 0 0 80px goldenrod;
-}
+
 .aboutmetext p {
   font-size: 20px;
   line-height: 30px;
   margin-top: 30px;
   text-align: justify;
   color: white;
+}
+@media (width<1220px) {
+  .explorers {
+    padding-inline: 50px;
+  }
+  .aboutmetext h1 {
+    font-size: 150px;
+  }
+}
+@media (min-width: 1060px) {
+  .headerexplorers p:hover {
+    color: black;
+    transform: scale(1.05);
+  }
+  .explorers {
+    filter: grayscale(90%);
+  }
+  .explorers:hover {
+    transform: scale(1.05);
+    filter: grayscale(0%);
+    cursor: pointer;
+    box-shadow: 0 0 100px black;
+  }
+  section img:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 100px black);
+  }
+  .aboutmetext h1:hover {
+    color: goldenrod;
+    transform: scale(1.02);
+    cursor: default;
+    text-shadow: 0 0 80px goldenrod;
+  }
+}
+@media (width<1060px) {
+  .explorecontainer {
+    flex-direction: column;
+    width: 100%;
+  }
+  .explorers {
+    padding-block: 60px;
+    padding-inline: 0;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    border: none;
+  }
+  .explorer1 {
+    background-image: url(https://t4.ftcdn.net/jpg/02/99/52/51/360_F_299525100_bjDDpkYba0g2TP0yCeeiy9ucIT4YuUzM.jpg);
+    background-position: center;
+  }
+  .explorer2 {
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/013/951/340/small/sea-ocean-beach-sunset-sunrise-landscape-outdoor-water-wave-with-white-foam-beautiful-sunset-colorful-sky-with-clouds-natural-island-panoramic-background-idyllic-amazing-tropical-island-shore-photo.jpg);
+    background-position: center;
+  }
+  .explorer3 {
+    background-image: url(https://thumbs.dreamstime.com/b/college-campus-open-book-education-image-background-wallpaper-381377602.jpg);
+    background-position: center;
+  }
 }
