@@ -77,7 +77,6 @@ video {
   background-size: cover;
 }
 section img {
-  height: 100vh;
   transition: 0.2s;
 }
 
@@ -96,6 +95,12 @@ section img {
   margin-top: 30px;
   text-align: justify;
   color: white;
+}
+.aboutmetext p:last-of-type {
+  display: none;
+}
+.sectiontwo img:last-of-type {
+  display: none;
 }
 @media (width<1220px) {
   .explorers {
@@ -142,6 +147,7 @@ section img {
     margin: auto;
     text-align: center;
     border: none;
+    box-shadow: 0 0 50px black;
   }
   .explorer1 {
     background-image: url(https://t4.ftcdn.net/jpg/02/99/52/51/360_F_299525100_bjDDpkYba0g2TP0yCeeiy9ucIT4YuUzM.jpg);
@@ -150,9 +156,57 @@ section img {
   .explorer2 {
     background-image: url(https://static.vecteezy.com/system/resources/thumbnails/013/951/340/small/sea-ocean-beach-sunset-sunrise-landscape-outdoor-water-wave-with-white-foam-beautiful-sunset-colorful-sky-with-clouds-natural-island-panoramic-background-idyllic-amazing-tropical-island-shore-photo.jpg);
     background-position: center;
+    color: rgb(249, 211, 115);
   }
   .explorer3 {
     background-image: url(https://thumbs.dreamstime.com/b/college-campus-open-book-education-image-background-wallpaper-381377602.jpg);
     background-position: center;
+    color: rgb(255, 170, 255);
+  }
+  .sectiontwo {
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+  }
+  .sectiontwo img {
+    display: none;
+  }
+  .sectiontwo h1 {
+    color: goldenrod;
+    text-shadow: 0 0 80px goldenrod;
+    font-size: 120px;
+    text-align: center;
+    padding-block: 30px;
+  }
+  .aboutmetext {
+    width: 100%;
+  }
+  .aboutmetext p {
+    width: 70%;
+    margin: auto;
+  }
+  .sectiontwo img:last-of-type {
+    display: block;
+    width: 70%;
+    margin-bottom: 60px;
+    box-shadow: 0 0 80px black;
+    border-radius: 20px;
+  }
+  .aboutmetext p:last-of-type {
+    display: block;
+  }
+  .aboutmetext p:first-of-type {
+    display: none;
+  }
+}
+@media (width<532px) {
+  .aboutmetext p {
+    font-size: 17px;
+    line-height: 25px;
+  }
+}
+@media (width<440px) {
+  .aboutmetext h1 {
+    font-size: 92px;
   }
 }
