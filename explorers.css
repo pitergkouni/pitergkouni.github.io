@@ -75,6 +75,7 @@ video {
   height: 100vh;
   background-image: url(bilderogvideo/blackbg2.jpg);
   background-size: cover;
+  overflow: hidden;
 }
 section img {
   transition: 0.2s;

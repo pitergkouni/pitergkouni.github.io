@@ -197,3 +197,11 @@ section {
   height: 100vh;
   display: flex;
 }
+@media (width<1047px) {
+  .textogvideo {
+    gap: 40px;
+  }
+}
+@media (width<940px) {
+  
+}
