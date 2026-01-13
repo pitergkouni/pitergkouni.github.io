@@ -14,6 +14,9 @@ video {
   max-width: 100%;
   display: block;
 }
+html {
+  background-color: black;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -27,6 +30,8 @@ header {
 }
 .dropdown {
   display: none;
+  background: none;
+  border: none;
 }
 .hamburgericon {
   display: block;
@@ -36,6 +41,7 @@ header {
 .dropdown-content {
   display: none;
   position: absolute;
+  top: 50px;
   left: 0;
   background: linear-gradient(to right, black, rgba(0, 0, 0, 0));
   min-width: 360px;
@@ -56,14 +62,14 @@ header {
   width: fit-content;
 }
 .dropdown-content a:last-of-type {
-  border-top: none; 
+  border-top: none;
 }
 .dropdown-content a:hover {
   background-color: none;
 }
-.dropdown:hover .dropdown-content {
+/* .dropdown:active .dropdown-content {
   display: block;
-}
+} */
 .upleftpit *:hover {
   cursor: pointer;
   text-shadow: 0 0 200px white;

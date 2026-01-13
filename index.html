@@ -10,12 +10,12 @@
   <body>
     <div class="headermaincontainer">
       <header>
-        <div class="dropdown">
+        <button id="dropdown-btn" class="dropdown" onclick="toggleDropdown()">
           <img class="hamburgericon" src="bilderogvideo/hamburgericon.png" />
-          <div class="dropdown-content">
-            <a href="gallery.html">Gallery</a>
-            <a href="https://www.piteraq.no/">My Shop</a>
-          </div>
+        </button>
+        <div id="dropdown-content" class="dropdown-content">
+          <a href="gallery.html">Gallery</a>
+          <a href="https://www.piteraq.no/">My Shop</a>
         </div>
         <abbr title="Piter Homepage"
           ><a href="https://pitergkouni.github.io/"
@@ -114,5 +114,6 @@
         Copyright©2025; Designed by PFreaky
       </div>
     </footer>
+    <script src="hoved.js"></script>
   </body>
 </html>
