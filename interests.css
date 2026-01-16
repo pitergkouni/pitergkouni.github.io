@@ -6,6 +6,12 @@
   text-decoration: none;
   list-style: none;
 }
+.none {
+  display: none;
+}
+.block {
+  display: block;
+}
 .textogvideo {
   display: flex;
   height: fit-content;
@@ -68,9 +74,11 @@
   gap: 20px;
   line-height: 25px;
 }
-.textes p {
+.textes p,
+span {
   color: #a8a398;
 }
+
 .videotext {
   display: flex;
   width: 50%;
@@ -203,5 +211,4 @@ section {
   }
 }
 @media (width<940px) {
-  
 }
