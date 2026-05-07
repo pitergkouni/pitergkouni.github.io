@@ -18,7 +18,7 @@ video {
   align-items: center;
   font-size: 40px;
   color: goldenrod;
-  background-image: url(https://c1.wallpaperflare.com/preview/822/256/959/banner-header-paper-crumpled.jpg);
+  background-image: url(bilderogvideo/banner-header-paper-crumpled.jpg);
   box-shadow: 0 0 30px black;
   position: relative;
   width: 100%;
@@ -32,7 +32,7 @@ video {
   align-items: center;
   width: 100%;
   height: 90vh;
-  background-image: url(https://w0.peakpx.com/wallpaper/147/280/HD-wallpaper-gold-background-vectors-stock-psd-white-gold.jpg);
+  background-image: url(bilderogvideo/HD-wallpaper-gold-background-vectors-stock-psd-white-gold.jpg);
   background-size: contain;
 }
 .explorecontainer {
@@ -151,16 +151,16 @@ section img {
     box-shadow: 0 0 50px black;
   }
   .explorer1 {
-    background-image: url(https://t4.ftcdn.net/jpg/02/99/52/51/360_F_299525100_bjDDpkYba0g2TP0yCeeiy9ucIT4YuUzM.jpg);
+    background-image: url(bilderogvideo/mountains.jpg);
     background-position: center;
   }
   .explorer2 {
-    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/013/951/340/small/sea-ocean-beach-sunset-sunrise-landscape-outdoor-water-wave-with-white-foam-beautiful-sunset-colorful-sky-with-clouds-natural-island-panoramic-background-idyllic-amazing-tropical-island-shore-photo.jpg);
+    background-image: url(bilderogvideo/ocean.jpg);
     background-position: center;
     color: rgb(249, 211, 115);
   }
   .explorer3 {
-    background-image: url(https://thumbs.dreamstime.com/b/college-campus-open-book-education-image-background-wallpaper-381377602.jpg);
+    background-image: url(bilderogvideo/campus.webp);
     background-position: center;
     color: rgb(255, 170, 255);
   }
